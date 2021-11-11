@@ -30,7 +30,7 @@ ProductTag.init(
   },
   {
     sequelize,
-    timestamps: false,
+    timestamps: false, // if changed to true will creat two comlumns
     freezeTableName: true,
     underscored: true,
     modelName: 'product_tag',
