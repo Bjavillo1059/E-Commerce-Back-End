@@ -16,7 +16,7 @@ ProductTag.init(
     product_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: "product",
+        model: "product", // acts as middle man to the Product.js for category_id
         key: "id",
       },
     },

@@ -35,6 +35,7 @@ Product.init(
         isNumeric: true,
       },
     },
+    // oneToMany association
     category_id: {
       type: DataTypes.INTEGER,
       references: {
